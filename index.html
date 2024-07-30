@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Balmet</title>
+        <script src="script.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-wvfXpOqxF8fN1iMY5ZqMu8ig0MhlFfe9/ZkhVAgHBf3HgVgQUH7p68kr5Rb4f5ZxjFq4F8sLeW8Us7KzXtL3MA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Contáctenos</span>
+							<span class="number">+541141637882</span>
+							<span class="number">fabricabalmet@hotmail.com</span>
+							<span class="number">@balmet1</span>
+						</div>
+					</div>
+
+					<div class="container-logo">
+						<i class=></i>
+						<h1 class="logo"><a href="/">Balmet</a></h1>
+						<h2>Artículos ferreteros</h2>
+					</div>
+
+					<!--<div class="container-user">
+						<i class="fa-solid fa-user"></i>
+						<i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</div>-->
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li onclick="abrirOtraPaginaGrampas()"><a href="#">Grampa tipo omega</a></li>
+						<li onclick="abrirOtraPaginaGrampasDeAmurar()"><a href="#">Grampa de amurar</a></li>
+						<li onclick="abrirOtraPaginaFlejes()"><a href="#">Flejes/cinta perforada</a></li>
+						<li onclick="abrirOtraPaginaSoportes()"><a href="#">soportes para lavatorio y más</a></li>
+					</ul>
+
+					<!--<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>*/
+					</form> -->
+				</nav>
+			</div>
+		</header>
+
+		<section class="banner">
+			<div class="content-banner">
+				<p>artículos ferreteros</p>
+				<h2>Grampas omega, flejes perforados, soportes para lavatorios<br />y mas...</h2>
+				<a href="https://wa.me/5491141638782" target="_blank">contáctenos</a>
+			</div>
+		</section>
+
+		<main class="main-content">
+			<section class="container container-features">
+				<div class="card-feature">
+					<i class="fa-solid fa-truck-fast"></i>
+					<div class="feature-content">
+						<span>Envío rápido y seguro</span>
+						<p>Hacia todo el país</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-wallet"></i>
+					<div class="feature-content">
+						<span>Calidad-Precio</span>
+						<p>Contamos con la mejor relación calidad-precio del mercado</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-headset"></i>
+					<div class="feature-content">
+						<span>Contáctenos</span>
+						<p>LLámenos 9:00 a 16:00 al +54 1141638782</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-categories">
+				<h1 class="heading-1">Catalogo</h1>
+				<div class="container-categories">
+					<div class="card-category category-moca">
+						<p>Grampas tipo omega</p>
+						<span onclick="abrirOtraPaginaGrampas()">Ver más</span>
+					</div>
+					<div class="card-category category-capuchino">
+						<p>Grampas de amurar</p>
+						<span onclick="abrirOtraPaginaGrampasDeAmurar()">Ver más</span>
+					</div>
+					<div class="card-category category-capuchino">
+						<p>Fleje/cinta perforada</p>
+						<span onclick="abrirOtraPaginaFlejes()">Ver más</span>
+					</div>
+					<div class="card-category category-capuchino">
+							<p>Soportes para lavatorio y mas</p>
+							<span onclick="abrirOtraPaginaSoportes()">Ver más</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-products">
+				<h1 class="heading-1">Productos mas vendidos</h1>
+
+				<div class="container-options">
+
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="./img/grampaomega.png" alt="Grampa 1/2" />
+						</div>
+						<div class="content-card-product">
+							<h3>Grampa omega "1/2"</h3>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/grampalavatorio.jpg"
+								alt="grampaL.jpg"
+							/>
+						</div>
+						<div class="content-card-product">
+							<h3>Grampa L</h3>
+						</div>
+					</div>
+					<!--producto 3-->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/grampalarga.jpeg"
+								alt="Grampa larga"
+							/>
+						</div>
+						<div class="content-card-product">
+							<h3>Grampa larga</h3>
+						</div>
+					</div>
+					<!--producto 4-->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/flejes.jpg" alt="Fleje Perforado" />
+						</div>
+						<div class="content-card-product">
+							<h3>Fleje Perforado</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>instagram: @balmet1</li>
+							<li>Teléfono: +541141638782</li>
+							<li>EmaiL: fabricabalmet@hotmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+							<span class="whatsapp">
+								<i class="fa-brands fa-whatsapp"></i>
+							</span>
+						</div>
+					</div>
+
+					<!--<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información de entrega</a></li>
+							<li><a href="#">Contáctenos</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolso</a></li>
+						</ul>
+					</div>
+
+					<!--<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+				</div> -->
+
+				<div class="copyright">
+					<p>
+						
+					</p>
+
+					
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+        <Footer>© 2024 Casq Coder</Footer>
+	</body>
+
+</html>
